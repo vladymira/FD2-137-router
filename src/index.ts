@@ -1,8 +1,8 @@
 import {RedirectPath, Router} from "./router";
-import {CartPage, HistoryPage, ProductPage, ProductsPage} from "./pages";
+import {CartPage, HistoryPage, ProductPage, ProductsPage, fotoPage} from "./pages";
 
 import listPath from './list.json';
-
+debugger;
 const appRouter = new Router([
   {
     path: '',
@@ -31,6 +31,10 @@ const appRouter = new Router([
   {
     path: 'products/:productId',
     page: ProductPage,
+  },
+  {
+    path: 'foto',
+    page: fotoPage,
   },
 ]);
 
