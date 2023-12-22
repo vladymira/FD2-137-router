@@ -45,6 +45,7 @@ customElements.define('router-outlet', class RouterOutlet extends HTMLElement {
     this.#loader.setAttribute('slot', 'loader');
     this.#page.setAttribute('slot', 'page');
     this.#loader.append(...this.childNodes);
+    debugger;
   }
 
   connectedCallback(): void {

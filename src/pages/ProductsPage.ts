@@ -3,7 +3,9 @@ import template from './products.html';
 
 const templEl = document.createElement('template');
 templEl.innerHTML = template;
+
 debugger;
+
 interface ProductInfo {
   id: number;
   price: number;
