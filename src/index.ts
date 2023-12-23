@@ -1,8 +1,8 @@
 import {RedirectPath, Router} from "./router";
-import {CartPage, HistoryPage, ProductPage, ProductsPage, fotoPage} from "./pages";
+import {CartPage, HistoryPage, ProductPage, ProductsPage} from "./pages";
+import './css/style.scss'
 
 import listPath from './list.json';
-debugger;
 const appRouter = new Router([
   {
     path: '',
@@ -31,11 +31,11 @@ const appRouter = new Router([
   {
     path: 'products/:productId',
     page: ProductPage,
+    resolve: {
+      productList: () => fetch(listPath).then(response => response.json()),
+    },
   },
-  {
-    path: 'foto',
-    page: fotoPage,
-  },
+ 
 ]);
 
 appRouter.start();

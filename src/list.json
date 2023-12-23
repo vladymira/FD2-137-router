@@ -1,32 +1,32 @@
 [
   {
     "id": 1,
-    "title": "dgsfewt",
+    "title": "корм",
     "price": 123
   },
   {
-    "id": 1,
-    "title": "dgsfewt",
-    "price": 123
+    "id": 2,
+    "title": "пауч",
+    "price": 12322
   },
   {
-    "id": 1,
-    "title": "dgsfewt",
-    "price": 123
+    "id": 3,
+    "title": "наполнитель",
+    "price": 12311
   },
   {
-    "id": 1,
-    "title": "dgsfewt",
-    "price": 123
+    "id": 4,
+    "title": "мышка",
+    "price": 12333
   },
   {
-    "id": 1,
-    "title": "dgsfewt",
-    "price": 123
+    "id": 5,
+    "title": "лежанка",
+    "price": 12322
   },
   {
-    "id": 1,
-    "title": "dgsfewt",
-    "price": 123
+    "id": 6,
+    "title": "лоток",
+    "price": 12333
   }
 ]
